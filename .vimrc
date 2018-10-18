@@ -48,6 +48,8 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'tjammer/blayu'
 Plugin 'plytophogy/vim-virtualenv'
+Plugin 'airblade/vim-gitgutter'
+
 
 colorscheme blayu
 
@@ -57,6 +59,7 @@ let python_highlight_all=1
 syntax on
 
 set encoding=utf-8
+set hlsearch
 
 au BufNewFile,BufRead *.py
     \ set tabstop=4 |
