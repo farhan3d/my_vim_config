@@ -25,6 +25,7 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+nnoremap <F9> :exec '!python' shellescape(@%, 1)<cr>
 
 " Enable folding
 set foldmethod=indent
